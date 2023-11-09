@@ -43,14 +43,15 @@
 		                        	<h3 class="wizard-title">
 		                        		SMART DENT
 		                        	</h3>
-									<h5>_____________________</h5>
+									<h5>Cadastro de OS</h5>
+									
 		                    	</div>
 								<div class="wizard-navigation">
 									<ul>
-			                            <li><a href="#details" data-toggle="tab">Cadastro de OS</a></li>
+			                            <li><a href="#details" data-toggle="tab">Cliente</a></li>
 
-			                        <!--    <li><a href="#captain" data-toggle="tab">Room Type</a></li>
-			                            <li><a href="#description" data-toggle="tab">Extra Details</a></li>-->
+			                            <li><a href="#captain" data-toggle="tab">Problema</a></li>
+			                            <li><a href="#description" data-toggle="tab">Datas</a></li>
 			                        </ul>
 								</div>
 
@@ -58,7 +59,7 @@
 		                            <div class="tab-pane" id="details">
 		                            	<div class="row">
 			                            	<div class="col-sm-12">
-			                                	<h4 class="info-text"> Preencher formulário abaixo.</h4>
+			                                	<h4 class="info-text"> Preencher dados do Cliente e do Atendimento.</h4>
 			                            	</div>
 		                                	<div class="col-sm-6">
 												<div class="input-group">
@@ -71,26 +72,6 @@
 			                                        </div>
 												</div>
 
-												<div class="input-group">
-													<span class="input-group-addon">
-														<i class="fa fa-"></i>
-													</span>
-													<div class="form-group label-floating">
-			                                          	<label class="control-label">Nome do Solicitante</label>
-			                                          	<input name="Nome do Solicitante" type="text" class="form-control">
-			                                        </div>
-												</div>
-
-												
-												<div class="input-group">
-													<span class="input-group-addon">
-														<i class="fa fa-"></i>
-													</span>
-													<div class="form-group label-floating">
-			                                          	<label class="text">Data da Abertura de Chamado</label>
-			                                          	<input name="Data da Abertura de Chamado" type="date" class="form-control">
-			                                        </div>
-												</div>
 
 												
 												<div class="input-group">
@@ -111,35 +92,7 @@
 												
 
 												
-												<div class="input-group">
-													<span class="input-group-addon">
-														<i class="fa fa-"></i>
-													</span>
-													<div class="form-group label-floating">
-			                                          	<label class="control-label">Descrição de Defeito ou Solicitado Pelo Cliente</label>
-			                                          	<input name="Descrição de Defeito ou Solicitado Pelo Cliente" type="text" class="form-control">
-			                                        </div>
-												</div>
-
-												<div class="input-group">
-													<span class="input-group-addon">
-														<i class="fa fa-"></i>
-													</span>
-													<div class="form-group label-floating">
-			                                          	<label class="control-label">Problemas Identificados</label>
-			                                          	<input name="Problemas Identificados" type="text" class="form-control">
-			                                        </div>
-												</div>
-
-												<div class="input-group">
-													<span class="input-group-addon">
-														<i class="fa fa-"></i>
-													</span>
-													<div class="form-group label-floating">
-			                                          	<label class="control-label">Correções Aplicadas</label>
-			                                          	<input name="Correções Aplicadas" type="text" class="form-control">
-			                                        </div>
-												</div>
+												
 
 		                                	</div>
 		                                	<div class="col-sm-6">
@@ -169,6 +122,15 @@
 													<input name="Número de série" type="text" class="form-control">
 		                                    	</div>
 		                                	</div>
+											<div class="input-group">
+												<span class="input-group-addon">
+													<i class="fa fa-"></i>
+												</span>
+												<div class="form-group label-floating">
+													  <label class="control-label">Nome do Solicitante</label>
+													  <input name="Nome do Solicitante" type="text" class="form-control">
+												</div>
+											</div>
 
 											<div class="input-group">
 												<span class="input-group-addon">
@@ -180,59 +142,94 @@
 												</div>
 											</div>
 
-											
-											<div class="input-group">
-												<span class="input-group-addon">
-													<i class="fa fa-"></i>
-												</span>
-												<div class="form-group label-floating">
-													  <label class="text">Data Recebimento</label>
-													  <input name="Data Recebimento" type="date" class="form-control">
-												</div>
-											</div>
-
-											
-											<div class="input-group">
-												<span class="input-group-addon">
-													<i class="fa fa-"></i>
-												</span>
-												<div class="form-group label-floating">
-													  <label class="text">Data Liberado</label>
-													  <input name="Data Liberado" type="date" class="form-control">
-												</div>
-											</div>
-
-											<div class="input-group">
-												<span class="input-group-addon">
-													<i class="fa fa-"></i>
-												</span>
-												<div class="form-group label-floating">
-													  <label class="text">Data Abertura de Chamado</label>
-													  <input name="Data Abertura de Chamado" type="date" class="form-control">
-												</div>
-											</div>
-                               <!--
-											<div class="input-group">
-												<span class="input-group-addon">
-													<i class="fa fa-"></i>
-												</span>
-												<div class="form-group label-floating">
-													  <label class="control-label">Número do OS</label>
-													  <input name="Número do OS" type="text" class="form-control">
-												</div>
-											</div>-->
-										</form>
-
 		                            	</div>
+
 		                            </div>
+
+
+									<div class="tab-pane" id="captain">
+										<div class="col-sm-12">
+											<h4 class="info-text"> Informar sobre o problema.</h4>
+										</div>
+
+		                                <div class="input-group">
+											<span class="input-group-addon">
+												<i class="fa fa-"></i>
+											</span>
+											<div class="form-group label-floating">
+												  <label class="control-label">Descrição de Defeito ou Solicitado Pelo Cliente</label>
+												  <input name="Descrição de Defeito ou Solicitado Pelo Cliente" type="text" class="form-control">
+											</div>
+										</div>
+
+										<div class="input-group">
+											<span class="input-group-addon">
+												<i class="fa fa-"></i>
+											</span>
+											<div class="form-group label-floating">
+												  <label class="control-label">Problemas Identificados</label>
+												  <input name="Problemas Identificados" type="text" class="form-control">
+											</div>
+										</div>
+
+										<div class="input-group">
+											<span class="input-group-addon">
+												<i class="fa fa-"></i>
+											</span>
+											<div class="form-group label-floating">
+												  <label class="control-label">Correções Aplicadas</label>
+												  <input name="Correções Aplicadas" type="text" class="form-control">
+											</div>
+										</div>
+		                            </div>
+
+									<div class="tab-pane" id="description">
+
+										<div class="col-sm-12">
+											<h4 class="info-text"> Informar Datas.</h4>
+										</div>
+
+										<div class="input-group">
+											<span class="input-group-addon">
+												<i class="fa fa-"></i>
+											</span>
+											<div class="form-group label-floating">
+												  <label class="text">Data Recebimento</label>
+												  <input name="Data Recebimento" type="date" class="form-control">
+											</div>
+										</div>
+
+										
+										<div class="input-group">
+											<span class="input-group-addon">
+												<i class="fa fa-"></i>
+											</span>
+											<div class="form-group label-floating">
+												  <label class="text">Data Liberado</label>
+												  <input name="Data Liberado" type="date" class="form-control">
+											</div>
+										</div>
+
+										<div class="input-group">
+											<span class="input-group-addon">
+												<i class="fa fa-"></i>
+											</span>
+											<div class="form-group label-floating">
+												  <label class="text">Data da Abertura de Chamado</label>
+												  <input name="Data da Abertura de Chamado" type="date" class="form-control">
+											</div>
+										</div>
+
+									</div>
+									</form>
 		                            
 	                        	<div class="wizard-footer">
 	                            	<div class="pull-right">
-	                                    <input type='button' class='btn btn-next btn-fill btn-danger btn-wd' name='next' value='Next' />
+	                                    <input type='button' class='btn btn-next btn-fill btn-danger btn-wd' name='next' value='Próximo' />
 	                                    <input type='submit' class='btn btn-finish btn-fill btn-danger btn-wd' name='finish' value='Enviar' />			
 	                                </div>
 	                                <div class="pull-left">
-	                                    <input type='button' class='btn btn-previous btn-fill btn-default btn-wd' name='previous' value='Previous' />
+	                                    <input type='button' class='btn btn-previous btn-fill btn-default btn-wd' name='previous' value='Voltar' />
 
 										
 	                                </div>
