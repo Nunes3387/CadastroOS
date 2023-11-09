@@ -24,7 +24,7 @@
 </head>
 
 <body>
-	<div class="image-container set-full-height" style="background-image: url('assets/img/wall.jpg')">
+	<div class="image-container set-full-height" style="background-image: url('assets/img/wall3.jpg')">
 	  
 
 	
@@ -35,7 +35,7 @@
 		        <div class="col-sm-8 col-sm-offset-2">
 		            <!--      Wizard container        -->
 		            <div class="wizard-container">
-		                <div class="card wizard-card" data-color="red" id="wizard">
+		                <div class="card wizard-card" data-color="blue" id="wizard">
 							<form method="post" name="contact" netlify>
 		                <!--        You can switch " data-color="blue" "  with one of the next bright colors: "green", "orange", "red", "purple"             -->
 
@@ -87,7 +87,7 @@
 														<i class="fa fa-"></i>
 													</span>
 													<div class="form-group label-floating">
-			                                          	<label class="control-label">Data da Abertura de Chamado</label>
+			                                          	<label class="text">Data da Abertura de Chamado</label>
 			                                          	<input name="Data da Abertura de Chamado" type="date" class="form-control">
 			                                        </div>
 												</div>
@@ -98,10 +98,17 @@
 														<i class="fa fa-"></i>
 													</span>
 													<div class="form-group label-floating">
-			                                          	<label class="control-label">Atendido Por:</label>
-			                                          	<input name="Atendido Por:" type="text" class="form-control">
-			                                        </div>
+														<label class="control-label">Atendido Por:</label>
+														<select name="AtendidoPor" class="form-control">
+															<option value="" disabled selected></option>
+															<option value="Igor">Igor</option>
+															<option value="Gabriel">Gabriel</option>
+															<option value="Heitor">Heitor</option>
+															<option value="Fabio">Fabio</option>
+														</select>
+													</div>
 												</div>
+												
 
 												
 												<div class="input-group">
@@ -179,7 +186,7 @@
 													<i class="fa fa-"></i>
 												</span>
 												<div class="form-group label-floating">
-													  <label class="control-label">Data Recebimento</label>
+													  <label class="text">Data Recebimento</label>
 													  <input name="Data Recebimento" type="date" class="form-control">
 												</div>
 											</div>
@@ -190,7 +197,7 @@
 													<i class="fa fa-"></i>
 												</span>
 												<div class="form-group label-floating">
-													  <label class="control-label">Data Liberado</label>
+													  <label class="text">Data Liberado</label>
 													  <input name="Data Liberado" type="date" class="form-control">
 												</div>
 											</div>
@@ -200,11 +207,11 @@
 													<i class="fa fa-"></i>
 												</span>
 												<div class="form-group label-floating">
-													  <label class="control-label">Data Abertura de Chamado</label>
+													  <label class="text">Data Abertura de Chamado</label>
 													  <input name="Data Abertura de Chamado" type="date" class="form-control">
 												</div>
 											</div>
-
+                               <!--
 											<div class="input-group">
 												<span class="input-group-addon">
 													<i class="fa fa-"></i>
@@ -213,7 +220,7 @@
 													  <label class="control-label">Número do OS</label>
 													  <input name="Número do OS" type="text" class="form-control">
 												</div>
-											</div>
+											</div>-->
 										</form>
 
 		                            	</div>
@@ -222,8 +229,7 @@
 	                        	<div class="wizard-footer">
 	                            	<div class="pull-right">
 	                                    <input type='button' class='btn btn-next btn-fill btn-danger btn-wd' name='next' value='Next' />
-	                                    <input type='button' class='btn btn-finish btn-fill btn-danger btn-wd' name='finish' value='Enviar' />
-										<input type="submit" value="Enviar">
+	                                    <input type='submit' class='btn btn-finish btn-fill btn-danger btn-wd' name='finish' value='Enviar' />			
 	                                </div>
 	                                <div class="pull-left">
 	                                    <input type='button' class='btn btn-previous btn-fill btn-default btn-wd' name='previous' value='Previous' />
@@ -241,7 +247,7 @@
 
 	    <div class="footer">
 	        <div class="container text-center">
-	             Feito por <i class="fa fa-"></i><a href="http://www.creative-tim.com">Creative Tim</a> e Modificado por Igor Nunes.
+	             Feito com <i class="fa fa-"></i><a href="http://www.creative-tim.com">Creative Tim</a>. Igor Nunes
 	        </div>
 	    </div>
 	</div>

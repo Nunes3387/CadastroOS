@@ -146,7 +146,8 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   padding-top: 100px;
   z-index: 3; }
   .wizard-container .wizard-navigation {
-    position: relative; }
+    position: relative;
+  left: 8px; }
 
 h1, .h1 {
   font-size: 3.8em;
